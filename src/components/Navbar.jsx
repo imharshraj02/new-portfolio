@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import { CodeBracketIcon } from '@heroicons/react/16/solid';
 
 export const Navbar = ({menuOpen , setMenuOpen}) => {
 
@@ -7,10 +8,13 @@ export const Navbar = ({menuOpen , setMenuOpen}) => {
     },[menuOpen])
 
     return <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-white/10 shadow-lg">
-        <div className="max-w-5xl mx-auto px-4">
+        <div className="max-w-auto mx-auto px-4">
             <div className="flex justify-between items-center h-16">
+                <div className="flex items-center justfy-center">
+                    <CodeBracketIcon className="size-6 mr-2"/>
                 <a href="#home" className="font-mono text-xl font-bold text-white">
                     harsh<span className="text-blue-500">.portfolio</span></a>
+                    </div>
                     <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={()=> setMenuOpen((prev) => !prev)}>
                         &#9776;
                     </div>
