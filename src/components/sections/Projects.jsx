@@ -20,10 +20,10 @@ export const Projects = () => {
             <div className="text-left">
               <h3 className="text-2xl font-semibold mb-2">Project Title</h3>
               <p className="text-gray-300 mb-4">
-                A brief description of the project goes here. Highlight its purpose or key functionality.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <a
-                href="https://your-project-link.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
@@ -42,10 +42,10 @@ export const Projects = () => {
             <div className="text-left">
               <h3 className="text-2xl font-semibold mb-2">Project Title</h3>
               <p className="text-gray-300 mb-4">
-                A brief description of the project goes here. Highlight its purpose or key functionality.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <a
-                href="https://your-project-link.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"

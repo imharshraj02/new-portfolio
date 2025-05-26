@@ -37,7 +37,7 @@ export const Contact = () => {
     <section id="contact" className="min-h-screen flex items-center justify-center py-20">
       <div className="max-w-3xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">Contact</h2>
-        <div className="glass rounded-xl border-white/10 border p-8 hover:scale-105 transition-transform duration-300">
+        <div className="glass rounded-xl border-white/10 border p-8 ">
           <p className="text-gray-300 mb-4">Feel free to reach out for collaborations, inquiries, or just a chat!</p>
           <form className="space-y-4" onSubmit={handleSubmit}>
             <input
